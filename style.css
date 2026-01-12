@@ -1,0 +1,245 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: white;
+  height: 13vh;
+  width: 100vw;
+  margin-bottom: 6px;
+}
+footer{
+  margin-top:1vh ;
+  background-color:white;
+  color: black;
+  
+  height :5vh
+  
+}
+.footercenter{
+  text-align: center;
+}
+.center{
+    background-color:white;
+  color: black;
+
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vh 3vw;
+}
+
+.img1 img {
+  height: 7vh;
+  
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+
+}
+
+.searchbar input[type="search"] {
+  width: 40vw;
+  height: 6vh;
+  font-size: 1.8vh;
+  padding: 0 1vw;
+  border: 1px solid #ccc;
+  border-radius: 9vh 0 0 9vh;
+  outline: none;
+}
+
+.searchbar button {
+  height: 6vh;
+  padding: 0 2vw;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 9vh 9vh 0;
+  background-color: #007bff;
+  color: white;
+  font-size: 1.8vh;
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+  color: black;
+}
+.center {
+  text-align: center;
+  padding: 2vh;
+  background: #222;
+}
+.login img {
+     height: 5vh;
+}
+.login a{
+  color:black;
+  text-decoration: none;
+  font-weight:2;
+}
+.second{
+  background-color: white;
+  height: 27vh;
+  width: 101vw;
+  margin-bottom: 1vh;
+  display: flex;
+}
+.second img {
+  position: relative;
+  height: 18vh;
+  width: 33vh;
+  display: flex;
+
+}
+.second span {
+  color: black ;
+  position: relative;
+  left: -14vh;
+  top: 18vh;
+  font-weight: 509;
+  overflow:visible;
+  display: flex;
+  height: 9vh;
+  width: 53vh;
+}
+
+.slider{
+  background-color: white;
+  height:50vh ;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+}
+.slider img{
+height: 36vh;
+  margin-top: 8vh;
+  margin-bottom: -10vh;
+  position: relative;
+  left: 5vh;
+  width: 317vh;
+  top: 0vh;
+  
+}
+.maincontent{
+  height: 200px;
+}
+     .section {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top:1vh ;
+    }
+
+    .section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: black;
+    }
+.section2 h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: black;
+    }
+    .section3 h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: black;
+    }
+    .scroll-container {
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      gap: 30px;
+      white-space: nowrap;
+      padding-bottom: 10px;
+    }
+
+    .scroll-container::-webkit-scrollbar {
+      height: 8px;
+    }
+
+    .scroll-container::-webkit-scrollbar-thumb {
+      background: #ccc;
+      border-radius: 10px;
+    }
+
+    .product {
+      flex: 0 0 auto;
+      width: 140px;
+      text-align: center;
+      white-space: normal; 
+    }
+
+    .product img {
+      width: 100%;
+      height: 120px;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+
+    .product-title {
+      font-size: 14px;
+      margin-top: 10px;
+      color: #333;
+    }
+
+    .product-offer {
+      font-weight: bold;
+      color: #2874f0;
+      font-size: 13px;
+    }
+    .scroll-container2{
+
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      gap: 30px;
+      white-space: nowrap;
+      padding-bottom: 10px;
+    }
+    .product2{
+            flex: 0 0 auto; 
+           width: 140px;
+           text-align: center;
+           white-space: normal; 
+
+    }
+    .scroll-container2::-webkit-scrollbar {
+      height: 8px;
+    }
+    .section2{
+      height: 40vh; 
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top:1vh ;
+    }  
+    .section3{
+      height: 40vh; 
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top:1vh ;
+    }
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+ 
+}
